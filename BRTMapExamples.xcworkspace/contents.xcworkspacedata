@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BRTBase/BRTBase.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BRTMapEvents/BRTMapEvents.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BRTMapMarker/BRTMapMarker.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BRTMapSearch/BRTMapSearch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BRTMapRoute/BRTMapRoute.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BRTLocation/BRTLocation.xcodeproj">
+   </FileRef>
+</Workspace>

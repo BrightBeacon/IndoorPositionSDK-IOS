@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5D80C7243C60CD00D8818F /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5D80C6243C60CC00D8818F /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		582422D920B2D89F00C8D371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582422D820B2D89F00C8D371 /* AppDelegate.m */; };
+		582422E120B2D89F00C8D371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582422E020B2D89F00C8D371 /* Assets.xcassets */; };
+		582422E420B2D89F00C8D371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582422E220B2D89F00C8D371 /* LaunchScreen.storyboard */; };
+		582422E720B2D89F00C8D371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582422E620B2D89F00C8D371 /* main.m */; };
+		587A602320B3CAE700FB0FDB /* BaseMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A5FE920B3CAE600FB0FDB /* BaseMapVC.m */; };
+		587A602520B3CAE700FB0FDB /* DemoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A5FEE20B3CAE600FB0FDB /* DemoTableVC.m */; };
+		587A602F20B3CAE700FB0FDB /* RouteDistanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A600520B3CAE700FB0FDB /* RouteDistanceVC.m */; };
+		587A603120B3CAE700FB0FDB /* RouteHintVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A600920B3CAE700FB0FDB /* RouteHintVC.m */; };
+		587A603220B3CAE700FB0FDB /* RouteOfflineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A600B20B3CAE700FB0FDB /* RouteOfflineVC.m */; };
+		587A603320B3CAE700FB0FDB /* RouteOnlyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A600D20B3CAE700FB0FDB /* RouteOnlyVC.m */; };
+		587A603420B3CAE700FB0FDB /* RouteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A600F20B3CAE700FB0FDB /* RouteVC.m */; };
+		841BE9D520D3DC9A0005B586 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841BE9D720D3DC9A0005B586 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B798B9223B3535D00460652 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B5D80C7243C60CD00D8818F /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B5D80C6243C60CC00D8818F /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = "../BRT-Framework/Mapbox.framework"; sourceTree = "<group>"; };
+		582422D420B2D89F00C8D371 /* BRTMapRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRTMapRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582422D720B2D89F00C8D371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		582422D820B2D89F00C8D371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		582422E020B2D89F00C8D371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582422E320B2D89F00C8D371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582422E520B2D89F00C8D371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582422E620B2D89F00C8D371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587A5FE820B3CAE600FB0FDB /* BaseMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapVC.h; sourceTree = "<group>"; };
+		587A5FE920B3CAE600FB0FDB /* BaseMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapVC.m; sourceTree = "<group>"; };
+		587A5FED20B3CAE600FB0FDB /* DemoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableVC.h; sourceTree = "<group>"; };
+		587A5FEE20B3CAE600FB0FDB /* DemoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableVC.m; sourceTree = "<group>"; };
+		587A600420B3CAE700FB0FDB /* RouteDistanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDistanceVC.h; sourceTree = "<group>"; };
+		587A600520B3CAE700FB0FDB /* RouteDistanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDistanceVC.m; sourceTree = "<group>"; };
+		587A600820B3CAE700FB0FDB /* RouteHintVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteHintVC.h; sourceTree = "<group>"; };
+		587A600920B3CAE700FB0FDB /* RouteHintVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteHintVC.m; sourceTree = "<group>"; };
+		587A600A20B3CAE700FB0FDB /* RouteOfflineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteOfflineVC.h; sourceTree = "<group>"; };
+		587A600B20B3CAE700FB0FDB /* RouteOfflineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteOfflineVC.m; sourceTree = "<group>"; };
+		587A600C20B3CAE700FB0FDB /* RouteOnlyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteOnlyVC.h; sourceTree = "<group>"; };
+		587A600D20B3CAE700FB0FDB /* RouteOnlyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteOnlyVC.m; sourceTree = "<group>"; };
+		587A600E20B3CAE700FB0FDB /* RouteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteVC.h; sourceTree = "<group>"; };
+		587A600F20B3CAE700FB0FDB /* RouteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteVC.m; sourceTree = "<group>"; };
+		587A603B20B3CC8900FB0FDB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		841BE9D620D3DC9A0005B586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		841BE9D820D3DCAC0005B586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582422D120B2D89F00C8D371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582422CB20B2D89F00C8D371 = {
+			isa = PBXGroup;
+			children = (
+				2B5D80C6243C60CC00D8818F /* Mapbox.framework */,
+				582422D620B2D89F00C8D371 /* BRTMapDemo */,
+				582422D520B2D89F00C8D371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582422D520B2D89F00C8D371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582422D420B2D89F00C8D371 /* BRTMapRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582422D620B2D89F00C8D371 /* BRTMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				587A603B20B3CC8900FB0FDB /* PrefixHeader.pch */,
+				582422D720B2D89F00C8D371 /* AppDelegate.h */,
+				582422D820B2D89F00C8D371 /* AppDelegate.m */,
+				587A5FD820B3CAE600FB0FDB /* Demos */,
+				582422E020B2D89F00C8D371 /* Assets.xcassets */,
+				582422E220B2D89F00C8D371 /* LaunchScreen.storyboard */,
+				582422E520B2D89F00C8D371 /* Info.plist */,
+				582422E620B2D89F00C8D371 /* main.m */,
+				841BE9D720D3DC9A0005B586 /* Localizable.strings */,
+			);
+			path = BRTMapDemo;
+			sourceTree = "<group>";
+		};
+		587A5FD820B3CAE600FB0FDB /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				587A5FED20B3CAE600FB0FDB /* DemoTableVC.h */,
+				587A5FEE20B3CAE600FB0FDB /* DemoTableVC.m */,
+				587A5FE820B3CAE600FB0FDB /* BaseMapVC.h */,
+				587A5FE920B3CAE600FB0FDB /* BaseMapVC.m */,
+				587A600320B3CAE700FB0FDB /* route */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		587A600320B3CAE700FB0FDB /* route */ = {
+			isa = PBXGroup;
+			children = (
+				587A600E20B3CAE700FB0FDB /* RouteVC.h */,
+				587A600F20B3CAE700FB0FDB /* RouteVC.m */,
+				587A600A20B3CAE700FB0FDB /* RouteOfflineVC.h */,
+				587A600B20B3CAE700FB0FDB /* RouteOfflineVC.m */,
+				587A600420B3CAE700FB0FDB /* RouteDistanceVC.h */,
+				587A600520B3CAE700FB0FDB /* RouteDistanceVC.m */,
+				587A600820B3CAE700FB0FDB /* RouteHintVC.h */,
+				587A600920B3CAE700FB0FDB /* RouteHintVC.m */,
+				587A600C20B3CAE700FB0FDB /* RouteOnlyVC.h */,
+				587A600D20B3CAE700FB0FDB /* RouteOnlyVC.m */,
+			);
+			path = route;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582422D320B2D89F00C8D371 /* BRTMapRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582422EA20B2D89F00C8D371 /* Build configuration list for PBXNativeTarget "BRTMapRoute" */;
+			buildPhases = (
+				582422D020B2D89F00C8D371 /* Sources */,
+				582422D120B2D89F00C8D371 /* Frameworks */,
+				2B798B9223B3535D00460652 /* Embed Frameworks */,
+				582422D220B2D89F00C8D371 /* Resources */,
+				582422F020B2DE9A00C8D371 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRTMapRoute;
+			productName = BRTMapDemo;
+			productReference = 582422D420B2D89F00C8D371 /* BRTMapRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582422CC20B2D89F00C8D371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = o2o;
+				TargetAttributes = {
+					582422D320B2D89F00C8D371 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 582422CF20B2D89F00C8D371 /* Build configuration list for PBXProject "BRTMapRoute" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582422CB20B2D89F00C8D371;
+			productRefGroup = 582422D520B2D89F00C8D371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582422D320B2D89F00C8D371 /* BRTMapRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582422D220B2D89F00C8D371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841BE9D520D3DC9A0005B586 /* Localizable.strings in Resources */,
+				582422E420B2D89F00C8D371 /* LaunchScreen.storyboard in Resources */,
+				582422E120B2D89F00C8D371 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		582422F020B2DE9A00C8D371 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582422D020B2D89F00C8D371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587A602F20B3CAE700FB0FDB /* RouteDistanceVC.m in Sources */,
+				587A602520B3CAE700FB0FDB /* DemoTableVC.m in Sources */,
+				587A603320B3CAE700FB0FDB /* RouteOnlyVC.m in Sources */,
+				587A603420B3CAE700FB0FDB /* RouteVC.m in Sources */,
+				587A603120B3CAE700FB0FDB /* RouteHintVC.m in Sources */,
+				587A602320B3CAE700FB0FDB /* BaseMapVC.m in Sources */,
+				582422E720B2D89F00C8D371 /* main.m in Sources */,
+				587A603220B3CAE700FB0FDB /* RouteOfflineVC.m in Sources */,
+				582422D920B2D89F00C8D371 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		582422E220B2D89F00C8D371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582422E320B2D89F00C8D371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		841BE9D720D3DC9A0005B586 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841BE9D620D3DC9A0005B586 /* en */,
+				841BE9D820D3DCAC0005B586 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582422E820B2D89F00C8D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		582422E920B2D89F00C8D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582422EB20B2D89F00C8D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2S5E9QH3S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../BRT-Framework/**";
+				GCC_PREFIX_HEADER = BRTMapDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = BRTMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../BRT-Framework/geos";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-lgeos",
+					"-framework",
+					BRTMapSDK,
+					"-framework",
+					BRTMapData,
+					"-framework",
+					BRTLocationEngine,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.o2o.BRTMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		582422EC20B2D89F00C8D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2S5E9QH3S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../BRT-Framework/**";
+				GCC_PREFIX_HEADER = BRTMapDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = BRTMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../BRT-Framework/geos";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-lgeos",
+					"-framework",
+					BRTMapSDK,
+					"-framework",
+					BRTMapData,
+					"-framework",
+					BRTLocationEngine,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.o2o.BRTMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582422CF20B2D89F00C8D371 /* Build configuration list for PBXProject "BRTMapRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582422E820B2D89F00C8D371 /* Debug */,
+				582422E920B2D89F00C8D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582422EA20B2D89F00C8D371 /* Build configuration list for PBXNativeTarget "BRTMapRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582422EB20B2D89F00C8D371 /* Debug */,
+				582422EC20B2D89F00C8D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582422CC20B2D89F00C8D371 /* Project object */;
+}
